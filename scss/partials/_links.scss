@@ -1,0 +1,82 @@
+/* ************************************************************************** */
+/* Links ******************************************************************** */
+/* ************************************************************************** */
+
+/* Topbar ******************************************************************* */
+.topbar-link {
+  font-family: $font-secondary;
+  font-size: 0.8125rem;
+  // font-weight: 700;
+  line-height: 1rem;
+  color: $color-dark;
+  @include linkFade;
+
+  &:hover {
+    color: $color-main;
+    text-decoration: none;
+    @include linkFade;
+  }
+}
+
+/* Navbar ******************************************************************* */
+
+.nav-link {
+  font-family: $font-secondary !important;
+  color: $color-dark !important;
+  font-size: 0.875rem !important;
+  @include linkFade;
+
+  &:hover {
+    color: $color-main !important;
+    text-decoration: none;
+    @include linkFade;
+  }
+
+  @include isXLarge {
+    margin-right: 0;
+    padding: 0 !important;
+  }
+}
+
+/* General Page Links ******************************************************* */
+.gen-page-link {
+  @extend .body-copy;
+  color: $color-light-accent;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-light-accent;
+  }
+}
+
+.appointment-page-link {
+  @extend h5;
+  color: $color-light-accent;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-dark;
+  }
+}
+
+/* Footer Links ************************************************************* */
+.footer-nav-link {
+  font-size: 1rem; // 16px
+  line-height: calc(1rem * 1.5);
+  font-family: $font-primary;
+  color: $color-dark;
+
+  &:hover {
+    color: $color-main;
+    text-decoration: none;
+  }
+}
+
+.small-footer-link {
+  @extend .small-copy;
+  color: $color-dark;
+
+  &:hover {
+    color: $color-main;
+  }
+}
