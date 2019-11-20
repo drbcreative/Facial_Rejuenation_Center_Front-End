@@ -233,17 +233,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/dr-bio-img.jpg": {
-		"ft": 16384,
-		"iS": 75600,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/dr-bio-img.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/dr-bio-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 214329,
@@ -252,7 +241,7 @@
 		"oAP": "/images/dr-bio-img@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/erase-bg.jpg": {
