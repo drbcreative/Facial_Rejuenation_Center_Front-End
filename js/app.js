@@ -1,4 +1,5 @@
 /* Nav and Menu */
+/* collect DOM elements and set consts */
 const navToggle = document.querySelector('.menu-trigger'),
   navMenu = document.querySelector('.slide-menu-wrapper'),
   topBar = document.querySelector('.topbar'),
@@ -8,10 +9,10 @@ const navToggle = document.querySelector('.menu-trigger'),
   toggleClose = document.querySelector('#toggle-close'),
   menuTriggerText = document.querySelector('.menu--trigger-text'),
   navHeader = document.querySelector('.nav-header'),
-  bgOverlay = document.querySelector('.background-overlay'),
+  // bgOverlay = document.querySelector('.background-overlay'),
   heroInfo = document.querySelector('#hero-info');
 
-/* store vars */
+/* store consts */
 const activeElements = [
   navMenu,
   topBar,
@@ -21,7 +22,7 @@ const activeElements = [
   toggleClose,
   menuTriggerText,
   navHeader,
-  bgOverlay,
+  // bgOverlay,
   heroInfo
 ];
 
@@ -74,5 +75,4 @@ window.addEventListener('scroll', () => {
       el.classList.remove('show');
     });
   }
-
 });

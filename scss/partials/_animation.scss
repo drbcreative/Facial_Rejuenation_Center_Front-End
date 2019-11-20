@@ -49,3 +49,15 @@
     opacity: 0;
   }
 }
+
+@keyframes closePulse {
+  from {
+    transform: scale(1);
+    color: lighten($color-main, 20);
+  }
+
+  to {
+    transform: scale(1.5);
+    color: $color-main;
+  }
+}
