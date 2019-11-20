@@ -201,3 +201,63 @@
     }
   }
 }
+
+/* cellulite erase ********************************************************** */
+.cellulite-erase {
+  background: url('../../images/cellulite-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color-light, 1);
+  }
+
+  @include isMedium {
+    background-position: left top;
+
+    &::before {
+      background: transparent;
+    }
+  }
+
+  @include isXLarge {
+    width: calc(100% - 40px);
+    margin: 20px auto;
+  }
+
+  @include isRetina {
+    margin: 40px auto;
+  }
+
+  .containerish {
+    display: flex;
+    align-items: center;
+
+    @include isMedium {
+      height: 650px;
+      align-items: flex-end;
+    }
+
+    @include isRetina {
+      height: 847px;
+    }
+
+    .section-info {
+      z-index: 40;
+
+      @include isMedium {
+        max-width: 605px;
+      }
+
+      @include isRetina {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
