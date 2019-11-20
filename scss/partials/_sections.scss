@@ -261,3 +261,54 @@
     }
   }
 }
+
+/* wrinkle and crepe ******************************************************** */
+.wrinkle-crepe {
+  background: url('../../images/erase-bg@2x.jpg') center / cover;
+  display: flex;
+  align-items: flex-end;
+
+  // padding: 40px 20px;
+  @include isLarge {
+    height: 900px;
+  }
+
+  @include isRetina {
+    height: 1015px;
+  }
+
+  .containerish {
+    display: grid;
+
+    @include isLarge {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+
+    @include isXLarge {
+      margin-bottom: 4rem;
+    }
+
+    @include isRetina {
+      column-gap: 2rem;
+    }
+
+    .col-left,
+    .col-right {
+      background: rgba($color-main, .8);
+      padding: 20px;
+
+      @include isMedium {
+        padding: 2rem 20px;
+      }
+
+      @include isXLarge {
+        padding: 2rem;
+      }
+
+      @include isRetina {
+        padding: 2.5rem;
+      }
+    }
+  }
+}

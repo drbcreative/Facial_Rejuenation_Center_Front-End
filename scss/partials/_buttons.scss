@@ -29,7 +29,7 @@
   @include btn-fade;
 
   @include isMedium {
-    width: 250px;
+    width: 240px;
     padding: 1rem 1rem;
   }
 }
@@ -150,7 +150,7 @@
 .ui-btn-white {
   background-color: #fff;
   border: 1px solid #fff;
-  color: $color-dark;
+  color: $color-main;
 
   &:hover {
     color: $color-dark;
