@@ -459,3 +459,74 @@
     }
   }
 }
+
+/* consultation ************************************************************* */
+.consultation {
+  background: url('../../images/appointment-bg@2x.jpg');
+  padding: 40px 20px;
+
+  @include isMedium {
+    padding: 60px 20px;
+  }
+
+  .containerish {
+    .section-info {
+      h2 {
+        text-align: center;
+
+        @include isXLarge {
+          position: relative;
+
+          &::after {
+            content: '';
+            position: absolute;
+            border-top: 1px solid $color-main;
+            width: 170px;
+            bottom: 5px;
+          }
+
+          &::before {
+            content: '';
+            position: absolute;
+            border-top: 1px solid $color-main;
+            width: 170px;
+            left: 115px;
+            bottom: 5px;
+          }
+        }
+      }
+    }
+
+    .consult-form {
+      display: grid;
+      row-gap: .5rem;
+
+      @include isMedium {
+        margin-top: 2.5rem;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1.5rem;
+        column-gap: 2rem;
+      }
+
+      @include isLarge {
+        max-width: 715px;
+        margin: 0 auto;
+      }
+
+      .form-control {
+        border-radius: 0;
+      }
+
+      button {
+        @include isMedium {
+          grid-column: 1 / -1;
+          justify-self: center;
+        }
+
+        @include isLarge {
+          // justify-self: center;
+        }
+      }
+    }
+  }
+}
