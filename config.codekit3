@@ -33,6 +33,28 @@
 		"oAP": "/assets/FONT LIST.txt",
 		"oF": 0
 		},
+	"/assets/logo-menu.png": {
+		"ft": 32768,
+		"iS": 11201,
+		"oA": 0,
+		"oAP": "/assets/logo-menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/logo-menu@2x.png": {
+		"ft": 32768,
+		"iS": 28666,
+		"oA": 0,
+		"oAP": "/assets/logo-menu@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/css/theme.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -460,6 +482,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-menu.png": {
+		"ft": 32768,
+		"iS": 11201,
+		"oA": 0,
+		"oAP": "/images/logo-menu.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-menu@2x.png": {
+		"ft": 32768,
+		"iS": 28666,
+		"oA": 0,
+		"oAP": "/images/logo-menu@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

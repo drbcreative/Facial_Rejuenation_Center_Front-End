@@ -5,14 +5,14 @@
 /* Topbar ******************************************************************* */
 .topbar-link {
   font-family: $font-secondary;
-  font-size: 0.8125rem;
+  font-size: 12px;
   // font-weight: 700;
   line-height: 1rem;
-  color: $color-dark;
+  color: $color-white;
   @include linkFade;
 
   &:hover {
-    color: $color-main;
+    color: $color-light-accent;
     text-decoration: none;
     @include linkFade;
   }

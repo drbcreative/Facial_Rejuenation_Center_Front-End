@@ -1,60 +1,78 @@
-/* Navbar Location */
+/* Nav and Menu */
+const navToggle = document.querySelector('.menu-trigger'),
+  navMenu = document.querySelector('.slide-menu-wrapper'),
+  topBar = document.querySelector('.topbar'),
+  topbarLeft = document.querySelector('#topbar-left'),
+  logoHeader = document.querySelector('.logo-header'),
+  toggleOpen = document.querySelector('#toggle-open'),
+  toggleClose = document.querySelector('#toggle-close'),
+  menuTriggerText = document.querySelector('.menu--trigger-text'),
+  navHeader = document.querySelector('.nav-header'),
+  bgOverlay = document.querySelector('.background-overlay'),
+  heroInfo = document.querySelector('#hero-info');
 
-/* Check to see window width */
-const hero = document.querySelector('.hero'),
-  header = document.querySelector('header'),
-  navWrapper = document.querySelector('.nav-wrapper');
+/* store vars */
+const activeElements = [
+  navMenu,
+  topBar,
+  topbarLeft,
+  logoHeader,
+  toggleOpen,
+  toggleClose,
+  menuTriggerText,
+  navHeader,
+  bgOverlay,
+  heroInfo
+];
 
-/* Load Menu location based on initial screen width */
-document.addEventListener('DOMContentLoaded', () => {
-  const winWidth = window.innerWidth;
+const showElements = [
+  logoHeader,
+  navHeader
+];
 
-  if (winWidth >= 1200) {
-    hero.appendChild(navWrapper);
-  } else {
-    // do nothing
-  }
-});
-
-/* Relocate Navbar based on Window Width */
-window.addEventListener('resize', () => {
-  const winWidth = window.innerWidth;
-  if (winWidth >= 1200) {
-    hero.appendChild(navWrapper);
-
-  } else if (winWidth < 1200) {
-    header.appendChild(navWrapper);
-  }
-});
-
-
-/* Animation */
-function animateCSS(element, animationName) {
-
-  const node = document.querySelector(element);
-
-  /* only on scroll */
-  window.addEventListener('scroll', () => {
-
-    if (node.getBoundingClientRect().top < window.innerHeight / 1.3) {
-      node.classList.add('animated', animationName);
-    }
-
+/* open menu function */
+const openMenu = () => {
+  activeElements.forEach((el) => {
+    el.classList.add('active');
   });
-
-  /* only on scroll */
+}
+/* close menu function */
+const closeMenu = () => {
+  activeElements.forEach((el) => {
+    el.classList.remove('active');
+  });
 }
 
-/* Animation Trigger */
-animateCSS('.information', 'fadeInUp');
-// animateCSS('.about-us', 'fadeInUp');
-animateCSS('#laser-info', 'fadeInRight');
-animateCSS('#functional-info', 'fadeInLeft');
-animateCSS('.functional-health', 'fadeIn');
-animateCSS('#chiro-img', 'fadeInLeft');
-animateCSS('#chiro-info', 'fadeInRight');
-animateCSS('#aesthetics-info', 'fadeInLeft');
-animateCSS('#aesthetics-img', 'fadeInRight');
-animateCSS('.visit', 'fadeInUp');
-animateCSS('#mas-therapy', 'fadeInUp');
-animateCSS('.footer-1', 'fadeInUp');
+navToggle.addEventListener('click', (e) => {
+  /* check to see status of toggle */
+  const toggleTarget = e.target;
+  if (!toggleTarget.classList.contains('active')) {
+    openMenu();
+  } else {
+    toggleTarget.classList.remove('active');
+    closeMenu();
+  }
+});
+
+navMenu.addEventListener('click', (e) => {
+  const target = e.target;
+  if (!target.dataset.toggle && !target.dataset.ignore) {
+    closeMenu();
+  }
+});
+
+/* Adjust navbar when scrolling */
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  // console.log(scrollY);
+  if (scrollY > 100) {
+    showElements.forEach((el) => {
+      el.classList.add('show');
+    });
+  } else if (scrollY < 100) {
+    showElements.forEach((el) => {
+      el.classList.remove('show');
+    });
+  }
+
+});
