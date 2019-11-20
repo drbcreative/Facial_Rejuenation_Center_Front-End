@@ -132,10 +132,72 @@
 
 /* doc for you ************************************************************** */
 .docforyou {
-  min-height: 900px;
+  min-height: 300px;
 }
 
 /* about us ***************************************************************** */
 .aboutus {
-  min-height: 900px;
+  background: url('../../images/aboutus-bg@2x.jpg') center / cover;
+
+  @include isXLarge {
+    padding: 3rem 0;
+  }
+
+  @include isRetina {
+    padding: 6rem 0;
+  }
+
+  .containerish {
+    background: rgba($color-white, .95);
+    padding: 40px 20px;
+
+    @include isXLarge {
+      padding: 40px 4rem;
+    }
+
+    @include isRetina {
+      padding: 4rem;
+    }
+
+    h2 {
+      text-align: center;
+
+      @include isXLarge {
+        position: relative;
+
+        &::after {
+          content: '';
+          position: absolute;
+          border-top: 1px solid $color-main;
+          width: 350px;
+          bottom: 5px;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          border-top: 1px solid $color-main;
+          width: 350px;
+          left: 0px;
+          bottom: 5px;
+        }
+      }
+    }
+
+    .section-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        @include isMedium {
+          column-count: 2;
+        }
+
+        @include isLarge {
+          column-gap: 40px;
+        }
+      }
+    }
+  }
 }
