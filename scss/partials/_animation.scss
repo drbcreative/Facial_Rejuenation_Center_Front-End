@@ -61,3 +61,15 @@
     color: $color-main;
   }
 }
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: translate3d(-50%, -50%, 0) scale(1)
+  }
+
+  50% {
+    transform: translate3d(-50%, -50%, 0) scale(1.5)
+  }
+}

@@ -145,9 +145,153 @@
 
     <!-- doctor for you -->
     <section class="docforyou">
-      <div class="containerish">
-
+      <div class="section-intro">
+        <div class="containerish">
+          <h2 class="color-main mb-4">THE DOCTOR FOR YOU</h2>
+          <div class="col-left">
+            <ul class="section-bullets">
+              <li>
+                <p class="body-copy color-dark-accent">Specializes in nose, face, ear, throat, neck and skin surgeries
+                </p>
+              </li>
+              <li>
+                <p class="body-copy color-dark-accent">Manages functional and aesthetic problems simultaneously</p>
+              </li>
+              <li>
+                <p class="body-copy color-dark-accent">Expertise in facial cosmetic and reconstructive surgery</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-right">
+            <ul class="section-bullets">
+              <li>
+                <p class="body-copy color-dark-accent">Thousands of successful head and neck operations</p>
+              </li>
+              <li>
+                <p class="body-copy color-dark-accent">Trained in all aspects of facial cosmetic surgery</p>
+              </li>
+              <li>
+                <p class="body-copy color-dark-accent">Technical skill combined with the attention to detail of an
+                  artist</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
+      <!-- body (interactive) section -->
+      <div class="body-section">
+        <div class="containerish">
+          <div class="erase-buttons">
+            <p class="erase--btn wrinkle active" id="wrinkle">WRINKLE <br> ERASE </p>
+            <p class="erase--btn agespot" id="agespot">AGE SPOT <br> ERASE </p>
+            <p class="erase--btn crepe" id="crepe">CREPE <br> ERASE </p>
+            <p class="erase--btn saggyskin" id="saggyskin">SAGGY SKIN <br> ERASE </p>
+            <p class="erase--btn fat" id="fat">FAT <br> ERASE </p>
+            <p class="erase--btn cellulite" id="cellulite">CELLULITE <br> ERASE </p>
+          </div>
+
+          <div class="erase-content">
+            <div class="content wrinkle active">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">WRINKLE <br> ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>SkinPen Microneedling – </strong> Three times, then once or twice a year</li>
+                <li><strong>Aquagold Microneedling – </strong> 2-4 times a year</li>
+                <li><strong>Morpheus8 Laser – </strong> Three times, then once every few years</li>
+                <li><strong>Fractional CO2 Laser – </strong> Once, then repeat in five years</li>
+                <li><strong>Renuvion – </strong> Just once</li>
+              </ul>
+
+            </div>
+
+            <div class="content agespot">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">AGE <br> SPOT ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>IPL (Intense Pulsed Light) – </strong> 2-4 times a year</li>
+                <li><strong>Chemical Peels – </strong> every six weeks to once a year </li>
+              </ul>
+
+            </div>
+
+            <div class="content crepe">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">CREPE <br> ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>TempSure Envi – </strong> 3-6 times, then twice a year</li>
+                <li><strong>Fractional CO2 Laser - </strong> Once, then you can repeat in five years</li>
+                <li><strong> Renuvion - </strong> Once only</li>
+              </ul>
+
+            </div>
+
+            <div class="content saggyskin">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">SAGGY<br>SKIN ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>Accutite/FaceTite – </strong> Once</li>
+                <li><strong>Renuvion - </strong> Once</li>
+                <li><strong>Surgery - </strong> Once</li>
+              </ul>
+
+            </div>
+
+            <div class="content fat">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">FAT <br>ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>Accutite/FaceTite – </strong> Once</li>
+                <li><strong>Renuvion - </strong> Once</li>
+                <li><strong>Surgery - </strong> Once</li>
+              </ul>
+
+            </div>
+
+            <div class="content cellulite">
+              <div class="title">
+                <div class="inner">
+                  <h2 class="color-main mb-4">CELLULITE <br>ERASE</h2>
+                </div>
+              </div>
+
+              <ul class="content--bullets">
+                <li><strong>TempSure Envi – </strong> 3-6 times, then twice a year</li>
+              </ul>
+
+            </div>
+
+          </div>
+          <div class="media d-none d-xl-block">
+            <a class="dot wrinkle active" data-val=" wrinkle"></a>
+            <a class="dot agespot" data-val="agespot"></a>
+            <a class="dot crepe" data-val="crepe"></a>
+            <a class="dot saggyskin" data-val="saggyskin"></a>
+            <a class="dot fat" data-val="fat"></a>
+            <a class="dot cellulite" data-val="cellulite"></a>
+          </div>
+        </div>
+      </div>
+      <!-- /body (interactive) section -->
     </section>
     <!-- /doctor for you -->
 
@@ -436,6 +580,7 @@
   <script src="js/vendor/jquery.min.js"></script>
   <script src="js/vendor/bootstrap.bundle.min.js"></script>
   <script src="js/app.min.js"></script>
+  <script src="js/body.min.js"></script>
   <script src="js/vendor/db-animate.min.js"></script>
 </body>
 
