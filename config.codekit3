@@ -17,6 +17,14 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/assets/body_section_interactive.xd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/body_section_interactive.xd",
+		"oF": 0
+		},
 	"/assets/facial_rejuv_web_final.xd": {
 		"cB": 0,
 		"ft": 8192,
@@ -82,6 +90,14 @@
 		"oAP": "/css/vendor/bootstrap.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/css/vendor/bootstrap.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/vendor/bootstrap.min.css.map",
+		"oF": 0
 		},
 	"/css/vendor/db-animate.min.css": {
 		"aP": 1,
