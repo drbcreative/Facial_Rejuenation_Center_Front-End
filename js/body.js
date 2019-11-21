@@ -43,3 +43,10 @@ eraseButtons.forEach((btn) => {
     contentShow(target.id);
   });
 });
+dots.forEach((dot) => {
+  dot.addEventListener('click', (e) => {
+    const target = e.target;
+    // contentShow(target.id);
+    contentShow(target.dataset.val);
+  });
+});
