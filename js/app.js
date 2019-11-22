@@ -9,7 +9,6 @@ const navToggle = document.querySelector('.menu-trigger'),
   toggleClose = document.querySelector('#toggle-close'),
   menuTriggerText = document.querySelector('.menu--trigger-text'),
   navHeader = document.querySelector('.nav-header'),
-  // bgOverlay = document.querySelector('.background-overlay'),
   heroInfo = document.querySelector('#hero-info');
 
 /* store consts */

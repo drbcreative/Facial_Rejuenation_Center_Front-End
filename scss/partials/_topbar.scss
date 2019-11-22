@@ -14,7 +14,8 @@
 
   @include isLarge {
     &.active {
-      background: transparent;
+      opacity: 0;
+      // display: none;
       transition: all .3s ease-out;
     }
   }

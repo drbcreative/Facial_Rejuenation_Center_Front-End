@@ -140,7 +140,7 @@
 
   @include isLarge {
     width: 50%;
-    background: rgba($color-main, .8);
+    background: rgba($color-main, .98);
     /* optional gradient background */
     // background-image: linear-gradient(to bottom, rgba($color-main, .9) 30%, rgba($color-dark, .8));
   }

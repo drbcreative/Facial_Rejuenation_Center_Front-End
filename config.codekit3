@@ -117,34 +117,12 @@
 		"oAP": "/css/vendor/db-animate.min.css.map",
 		"oF": 0
 		},
-	"/images/aboutus-bg.jpg": {
-		"ft": 16384,
-		"iS": 302831,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/aboutus-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/aboutus-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 840227,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/aboutus-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/appointment-bg.jpg": {
-		"ft": 16384,
-		"iS": 16488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/appointment-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -161,34 +139,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/bio-saggy-bg.jpg": {
-		"ft": 16384,
-		"iS": 48944,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/bio-saggy-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/bio-saggy-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 175196,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/bio-saggy-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/body-section-bg.jpg": {
-		"ft": 16384,
-		"iS": 31608,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/body-section-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -205,17 +161,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/body-section-model.png": {
-		"ft": 32768,
-		"iS": 679383,
-		"oA": 0,
-		"oAP": "/images/body-section-model.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/body-section-model@2x.png": {
 		"ft": 32768,
 		"iS": 2240496,
@@ -225,17 +170,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/images/cellulite-bg.jpg": {
-		"ft": 16384,
-		"iS": 58236,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/cellulite-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/images/cellulite-bg@2x.jpg": {
@@ -260,34 +194,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/images/erase-bg.jpg": {
-		"ft": 16384,
-		"iS": 121791,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/erase-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/erase-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 396101,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/erase-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/fat-erase-bg.jpg": {
-		"ft": 16384,
-		"iS": 114014,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/fat-erase-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -304,34 +216,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/footer-bg.jpg": {
-		"ft": 16384,
-		"iS": 48344,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/footer-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/footer-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 146574,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/footer-bg@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/hero-bg.jpg": {
-		"ft": 16384,
-		"iS": 80471,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -350,7 +240,7 @@
 		},
 	"/images/icon-1.png": {
 		"ft": 32768,
-		"iS": 9426,
+		"iS": 101097,
 		"oA": 0,
 		"oAP": "/images/icon-1.png",
 		"oF": 0,
@@ -359,20 +249,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icon-1@2x.png": {
-		"ft": 32768,
-		"iS": 30059,
-		"oA": 0,
-		"oAP": "/images/icon-1@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/icon-2.png": {
 		"ft": 32768,
-		"iS": 6663,
+		"iS": 69195,
 		"oA": 0,
 		"oAP": "/images/icon-2.png",
 		"oF": 0,
@@ -381,20 +260,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icon-2@2x.png": {
-		"ft": 32768,
-		"iS": 17122,
-		"oA": 0,
-		"oAP": "/images/icon-2@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/icon-3.png": {
 		"ft": 32768,
-		"iS": 5504,
+		"iS": 27464,
 		"oA": 0,
 		"oAP": "/images/icon-3.png",
 		"oF": 0,
@@ -403,20 +271,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icon-3@2x.png": {
-		"ft": 32768,
-		"iS": 13509,
-		"oA": 0,
-		"oAP": "/images/icon-3@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/icon-4.png": {
 		"ft": 32768,
-		"iS": 4410,
+		"iS": 27818,
 		"oA": 0,
 		"oAP": "/images/icon-4.png",
 		"oF": 0,
@@ -425,44 +282,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/icon-4@2x.png": {
-		"ft": 32768,
-		"iS": 10745,
-		"oA": 0,
-		"oAP": "/images/icon-4@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/icon-5.png": {
 		"ft": 32768,
-		"iS": 11042,
+		"iS": 101784,
 		"oA": 0,
 		"oAP": "/images/icon-5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/icon-5@2x.png": {
-		"ft": 32768,
-		"iS": 35612,
-		"oA": 0,
-		"oAP": "/images/icon-5@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/logo-header.png": {
-		"ft": 32768,
-		"iS": 9862,
-		"oA": 0,
-		"oAP": "/images/logo-header.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -490,17 +314,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/logo-menu.png": {
-		"ft": 32768,
-		"iS": 11201,
-		"oA": 0,
-		"oAP": "/images/logo-menu.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/logo-menu@2x.png": {
 		"ft": 32768,
 		"iS": 28666,
@@ -509,17 +322,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/saggy-skin-img.png": {
-		"ft": 32768,
-		"iS": 964006,
-		"oA": 0,
-		"oAP": "/images/saggy-skin-img.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

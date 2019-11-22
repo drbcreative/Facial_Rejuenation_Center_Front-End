@@ -46,7 +46,6 @@ eraseButtons.forEach((btn) => {
 dots.forEach((dot) => {
   dot.addEventListener('click', (e) => {
     const target = e.target;
-    // contentShow(target.id);
     contentShow(target.dataset.val);
   });
 });
